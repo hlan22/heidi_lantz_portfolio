@@ -21,18 +21,16 @@ during my semester at the **University of Oslo**!
 ## About Me
 
 Hi, I'm Heidi! 
+I'm a Data Modernization Consultant and am developing my skills to eventually become a Data Engineer!
 
-I work as a Data Modernization Consultant, and I am developing my skills to become a data engineer!
+I graduated with a BSc. at the University of British Columbia (*UBC*) in 2025! I finished with a major in **statistics** and a minor in **data science**.
 
-I recently graduated with a BSc. at the University of British Columbia in Vancouver! I graduated with a major in statistics and a minor in data science.
-
-My interests involve data visualization, Microsoft Azure, SQL, AI, and so much more. 
-Take a look through my website to learn more about me!
+I frequently work with Databricks, Microsoft Fabric, and Power BI with the Python, R, SQL, and DAX languages!
+Please take a look through my website to learn more!
 
 ## Contact
 **GitHub**: [https://github.com/hlan22](https://github.com/hlan22){target="_blank"} <br>
 **LinkedIn**: [https://www.linkedin.com/in/heidilantz/](https://www.linkedin.com/in/heidilantz/){target="_blank"} <br>
-**Email**: [heidilantz22\@gmail.com](mailto:heidilantz22@gmail.com){.email}{target="_blank"} <br>
-Reach out if you have any questions!
+**Email**: [heidilantz22\@gmail.com](mailto:heidilantz22@gmail.com){.email} <br>
 </div>
 :::
