@@ -29,8 +29,8 @@ I frequently work with Databricks, Microsoft Fabric, and Power BI using the Pyth
 Please take a look through my website to learn more!
 
 ## Contact
-**LinkedIn**: [linkedin.com/in/heidilantz/](https://www.linkedin.com/in/heidilantz/){target="_blank"} <br>
-**Email**: [heidilantz22\@gmail.com](mailto:heidilantz22@gmail.com){.email} <br>
+Please message on my **LinkedIn**: <br>
+[linkedin.com/in/heidilantz](https://www.linkedin.com/in/heidilantz/){target="_blank"} <br>
 **GitHub**: [github.com/hlan22](https://github.com/hlan22){target="_blank"}
 </div>
 :::
