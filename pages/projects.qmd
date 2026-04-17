@@ -13,50 +13,48 @@ format:
 lightbox: true                  # all images have englarged popup when you click on them - see: https://quarto.org/docs/output-formats/html-lightbox-figures.html
 ---
 
-<div class="centered-title">My Projects</div>
+<div class="centered-title">Personal Projects</div>
 
 ---
 
+All projects listed here were completed between 2024-2025 and were either apart of a class project, hackathon, or just personal interest! 
+Feel free to reach out to me about any of them if you'd like to learn more!
+
 # 1. Student Statistical Consultant (Capstone Project) {#capstone}
 
-* With guidance from Dr. Rodolfo Lourenzutti, I worked for a client analyzing changes in glaucoma eye surgery in an apprentice type of job.
-* Real client work, regular meetings with the professor presenting work, poster board and oral presentations
-* Produced reports, code, and worked directly for the client using the R programming language and GitHub
-* Learned about complications with study design, model selection, and effective statistical communication
+* Consultant work for a client analyzing changes and affects with glaucoma eye surgery 
+* Regularly presented work with professor Rodolfo Lourenzutti to ensure high-quality and reliable work was produced
+* Met with client, presented findings at a poster board session, and did technical oral presentations to the STAT 450 class
+* Produced written reports code repository, and visualizations using the R programming language and GitHub
+* Learned extensively about complications with study design, model selection, and effective statistical communication
 
 ::: {#fig-poster-board}
 
 ![](../outputs/microshunt_poster_board.png)
 
-STAT 450 Poster Board: Presenting our Findings!
+Presenting our Findings on a Poster Board!
 
 :::
-
-<!-- 
-They took the link down: See more about the Poster Session [here](https://www.stat.ubc.ca/poster-session-stat-450-2) 
-I think it would be good to include
--->
 
 ---
 
 # 2. [The Daily Grind (CMD-F Hackathon)](https://devpost.com/software/the-daily-grind){target="_blank"} {#cmdf}
 
-* A 24 hour Computer Science Hackathon on the weekend of March 8-9th, 2025
-* **Winners of the "Social Track"** for our coffee-chat conversation starter using AI
-* Won **3rd place overall**, with 50+ projects and 200+ participants
-* Presented work to 7 judges individually, and in the final round presented in front of the entire Hackathon community (over 250+ people).
-* For more info, see [our Devpost](https://devpost.com/software/the-daily-grind).
+* A 24-hour computer science Hackathon in 2025 with 50+ projects and 200+ participants competing
+* Our project was the **Winner of the "Social Track"** where we created a useful coffee-chat conversation starter
+* Won **3rd place overall**, after presenting to 7 judges and being invited to present in front of the entire Hackathon community (over 250+ people).
+* For more information, please see the project on [our Devpost](https://devpost.com/software/the-daily-grind).
 
 ::: {#fig-grind height=60%}
 ![](https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/317/679/datas/gallery.jpg)(https://devpost.com/software/the-daily-grind)
 
-Preview of the conversation starter app we built! For more info, see [our devpost](https://devpost.com/software/the-daily-grind){target="_blank"}. This is a popup window where you can add additional information to help create useful conversation topics.
+Preview of the conversation starter! This is a popup window where you can add additional information to help create useful conversation topics. For more info, see [our devpost](https://devpost.com/software/the-daily-grind){target="_blank"}. 
 :::
 ---
 
-# 3. DSCI 310: Reproducible and Trustworthy Workflows {#reproducible}
+# 3. Reproducible and Trustworthy Workflows {#reproducible}
 
-An analysis and package that is a fully reproducible and robust data analysis project, comprised of:
+In my DSCI 310 class, we wanted to created both a data analysis project and a package that is a fully reproducible. This project promoted many sustainable data practices, including:
 
 * A well documented and modularized **software package** and **scripts written in R**,
 * A **data analysis pipeline** automated with **GNU Make** and Makefile's,
@@ -65,81 +63,81 @@ An analysis and package that is a fully reproducible and robust data analysis pr
 * A remote version control repository on GitHub for project collaboration and sharing, 
 * As well as automation of **test suite execution and documentation** and software deployment.
 
-For my group's work, see the R package repository [here](https://hlan22.github.io/asa_datafest_2025/#/title-slide){target="_blank"} and the analysis repository [here](https://github.com/DSCI-310-2025/dsci-310-group-7-data-dudes){target="_blank"}.
+For my group's work, see the R package repository [here](https://github.com/DSCI-310-2025/pkg.drugage){target="_blank"} and the analysis repository [here](https://github.com/DSCI-310-2025/dsci-310-group-7-data-dudes){target="_blank"}.
 
 ::: {#fig-drugage height=60%}
 [![](../outputs/drugage_package_image.png)](https://github.com/DSCI-310-2025/pkg.drugage){target="_blank"}
 
-Screenshot of Package Repository. See the package [here](https://hlan22.github.io/asa_datafest_2025/#/title-slide){target="_blank"} and the analysis [here](https://github.com/DSCI-310-2025/dsci-310-group-7-data-dudes){target="_blank"}.
+Preview of Package Repository. See the package [here](https://hlan22.github.io/asa_datafest_2025/#/title-slide){target="_blank"} and the analysis [here](https://github.com/DSCI-310-2025/dsci-310-group-7-data-dudes){target="_blank"}.
 :::
 
 ---
 
 # 4. Weather Extremes Research {#research}
 
-* Working at UBC from May to August 2024 under an URSA NSERC scholarship
-* Finding patterns and explanations for climate extremes. Dealt with Canadian weather data, relating to floods, droughts, and wildfires using Python and R languages. Completed EDA and used various statistical analyses to gain insight into weather patterns and time series analysis. 
+* Working as a Research Assistant at UBC during Summer 2024 under an URSA NSERC scholarship.
+* The goal was to find patterns and explanations for climate extremes. Regularly dealt with Canadian weather data relating to floods, droughts, and wildfires. 
+* Completed EDA and used various statistical analyses to gain insight into weather patterns and time series analysis. 
+* Using Python and R programming languages with RStudio IDE and Quarto for presentations.
 * Analyzed many research papers, presented work weekly, and assisted both professor Harry Joe and professor Natalia Nolde with various tasks.
-* Work will be published on a public repository soon!
+* I'm currently in the process of cleaning up the work to be published on a public repository!
 
 ---
 
 # 5. ASA DataFest {#datafest}
 
 * A **48 hour Hackathon** in a team of 3 for the [American Statistical Association](https://ww2.amstat.org/education/datafest/){target="_blank"}.
-* Created a fully reproducible project, with EDA and a complex statistical analysis
-* Created a dashboard, demonstration video, presentation using quarto, and analysis using a Bayesian model
-* See the repository at: [https://github.com/hlan22/asa_datafest_2025](https://github.com/hlan22/asa_datafest_2025){target="_blank"}
+* Created a fully reproducible project with lots of EDA (Exploratory Data Analysis) and complex statistical analysis using a Bayesian model
+* Produced a data dashboard, demonstration video, presentation slides using Quarto.
+* See the repository here: [https://github.com/hlan22/asa_datafest_2025](https://github.com/hlan22/asa_datafest_2025){target="_blank"}
 
 ::: {#fig-market-results}
 [![ASA Datafest Presentation](https://hlan22.github.io/asa_datafest_2025/#/results-all-markets)](https://hlan22.github.io/asa_datafest_2025/#/results-all-markets){target="_blank"}
 
-See the presentation at [this link](https://hlan22.github.io/asa_datafest_2025/#/title-slide){target="_blank"}.
+See the presentation [here](https://hlan22.github.io/asa_datafest_2025/#/title-slide){target="_blank"}.
 :::
-
 
 ---
 
 # 6. `wordplayr` - An R Package {#word}
 
-* The aim of `wordplay` is to learn more about your favorite list of words! Learn about metrics such as length, most frequent starting letter, and much more with ease!
-* A fully functioning R package with clear `README.Rmd` instructions on how to install and use, along with a vignette, website, and Roxygen comments to help guide the user.
-* I have built up a 'list of favorite words' over the years and wanting to learn more about them is what inspired me to make this package!
+* The aim of `wordplayr` is to gain insights and discover patterns about your favorite list of words! Learn about metrics such as average word length, most common starting letters, frequent vowel sounds used in your words, and much more with ease!
+* A fully functioning R package with clear `README.Rmd` instructions on how to install and use, along with a **vignette**, package website, and Roxygen comments to help guide the user.
+* I built a list of my favorite words over the past few years, and I really wanted to learn more about **why** I like those words and if I could see any common patterns with them. This is what inspired me to make this package! If you're curious, my favorite words most frequently start with the letter 'C'!
 * See the [R package repository](https://github.com/hlan22/wordplay){target="_blank"} and the [package website](https://hlan22.github.io/wordplay/){target="_blank"}.
 
 ::: {#fig-wordplay}
 [![](../outputs/wordplay_website.png)](https://hlan22.github.io/wordplay/){target="_blank"}
 
-A preview of the [package website](https://hlan22.github.io/wordplay/){target="_blank"}
+Preview of the [package website](https://hlan22.github.io/wordplay/){target="_blank"}
 :::
 
 ---
 
-# 7. Python Dashboard & Data Visualization
-
+# 7. Custom Python Dashboard
 
 #### DSCI 320 Dashboard
 
-With two group members, we created the following dashboard where we had to create inventive visualizations to explain 4 questions. We looked into trends for attendance at libraries in the San Francisco area. The dashboard is interactive and has toggle options that don't show up in the saved image.
+With the help of two group members, we created the following dashboard where we looked into trends for attendance at libraries in the San Francisco area. We had the requirement to create inventive visualizations to explain 4 questions. The dashboard is fully interactive and has toggle options [Not shown in the saved image].
 
 ::: {#fig-dsci-dashboard height=60%}
 
 ![](../outputs/dashboard_dsci320.png)
 
-Dashboard for a data visualization course (DSCI 320)
+Custom dashboard for DSCI 320 Course: Data Visualization
 
 :::
 
 ---
 
-# 8. `easyEDA` - A Python Package (In development) {#easy}
+# 8. `easyEDA` - A Python Package {#easy}
 
-* A Python Package (still in progress) such that you can “automate” EDA for any given dataset. 
+* A Python Package (currently in progress) that helps automate EDA for any given dataset. 
 * Functions will quickly and easily create proper plots based on data types, for any and all columns. 
-* Code will be done with Python so that you can include interactive visuals, but will expand to R too.
+* Allows for easy and relaxed exploration of a dataset, but also allows for complex analysis and presentation-ready visualizations.
+* Coded with Python with implementation for interactive visuals, but will eventually expand to an R package as well.
 * Link to the repository [here](https://github.com/hlan22/easy_eda){target="_blank"}
 
-
 <!-- 
-I hope you enjoyed looking at the source code! ;)
+Psst! I hope you enjoyed looking at the source code :)
 -->
