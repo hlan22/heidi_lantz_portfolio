@@ -15,24 +15,62 @@ lightbox: true                  # all images have englarged popup when you click
 
 <div class="centered-title">My Certifications & Certificates</div>
 
+All certifications listed are currently valid and have been achieved in 2025/2026!
+
 # Technical Certifications   
 
-## PL-300: Power BI Data Analyst Associate
+---
 
-## DP-600: Microsoft Fabric Data Analyst Associate
+### PL-300: Power BI Data Analyst Associate 
 
-## DP-700: Microsoft Fabric Data Engineer Associate
+::: {#fig-power-bi height=60%}
+![](../outputs/azure_fundamentals_cert.png)
 
-## Snowflake SnowPro Core
+Microsoft Certified: Power BI Data Analyst Associate
+:::
 
-## DP-900: Azure Data Fundamentals
+---
 
-## AZ-900: Microsoft Azure Fundamentals
+### DP-600: Microsoft Fabric Data Analyst Associate 
+
+::: {#fig-analytics-engineer height=600px}
+<iframe src="../outputs/fabric_analytics_engineer.pdf" width="100%" height="600px"></iframe>
+
+Microsoft Certified: Fabric Analytics Engineer Associate
+:::
+
+---
+
+### DP-700: Microsoft Fabric Data Engineer Associate 
+
+::: {#fig-data-engineer height=600px}
+<iframe src="../outputs/fabric_data_engineer_pdf.pdf" width="100%" height="600px"></iframe>
+
+Microsoft Certified: Fabric Data Engineer Associate
+:::
+
+---
+
+### Snowflake SnowPro Core 
+
+---
+
+### DP-900: Azure Data Fundamentals 
+
+::: {#fig-data-fundamentals height=60%}
+![]()
+
+Microsoft Certified: Azure Data Fundamentals
+:::
+
+---
+
+### AZ-900: Microsoft Azure Fundamentals 
 
 ::: {#fig-az-fundamentals height=60%}
 ![](../outputs/azure_fundamentals_cert.png)
 
-Microsoft Certified Azure Fundamentals
+Microsoft Certified: Azure Fundamentals
 :::
 
 
@@ -40,7 +78,9 @@ Microsoft Certified Azure Fundamentals
 
 # Course Certificates
 
-## Lakehouse Architecture with Databricks
+---
+
+### Databricks Fundamentals
 
 * Course ID: E-VP9791
 * Completed 5/5/2025
@@ -48,44 +88,12 @@ Microsoft Certified Azure Fundamentals
 ::: {#fig-lakehouse height=60%}
 ![](../outputs/databricks_certificate.png)
 
-Certificate of Completion: Get Started With Lakehouse Architecture
+Certificate: Get Started With Lakehouse Architecture
 :::
 
-<details>
-<summary>Course Topics and Objectives</summary>
+---
 
-* See the course [here](https://www.databricks.com/learn/training/get-started-lakehouse-architecture#data-video){target="_blank"}
-* Learning Objectives:
-
-> Describe the available compute options for workloads performed on the databricks data intelligence platform
-
-> List the products and features databricks offers for different data-centric needs within the databricks platform
-
-> Navigate the databricks workspace UI
-
-> Develop an agreed upon set of terminology and concepts for discussing Lakehouse Architecture
-
-> Define the framework of a modern data and AI platform
-
-> Explain the range of functions, capabilities, and use cases for data lakehouses within enterprise businesses.
-
-> Describe the rules that make up the guiding philosophy behind a data lakehouse architecture
-
-> Use the guiding princples of the lakehouse architecture to verify that your organizations data strategy aligns with the vision of the Databricks Data Intelligence Platform.
-
-> Identify the componenets of a lakehouse architecture by reviewing available reference architecture for your given cloud implementation.
-
-> Differentiate between the different roles and responsibilities of Databricks Data Intelligence platform features and products and those provided by the cloud service provider in a lakehouse architecture.
-
-> Describe the well-architected framework adopted by the three largest cloud service providers.
-
-> Explain how Databricks has adapted and built upon the cloud well-architected framework for the well-architected lakehouse framework.
-
-> List the seven pillars of the well-architected lakehouse framework.
-
-</details>
-
-## CDP-101: Consultant Development Program at Long View Systems</h2>
+### CDP-101: Consultant Development Program at Long View Systems</h2>
 
 ::: {#fig-lvs-101 height=60%}
 ![](../outputs/cdp_101_cert.png)
@@ -93,7 +101,9 @@ Certificate of Completion: Get Started With Lakehouse Architecture
 Consultant Development Program 101
 :::
 
-## CDP-201: Consultant Development Program at Long View Systems</h2>
+---
+
+### CDP-201: Consultant Development Program at Long View Systems</h2>
 
 ::: {#fig-lvs-201 height=60%}
 ![](../outputs/cdp_201_cert.png)
@@ -101,11 +111,9 @@ Consultant Development Program 101
 Consultant Development Program 201
 :::
 
-## SQL Essential Training 
+---
 
-[SQL Essential Training (LinkedIn Learning)](https://www.linkedin.com/learning/sql-essential-training-20685933/the-data-driven-world-19067626?u=264700066){target="_blank"}
-
-## Research Ethics
+### Research Ethics
 
 * Completed 12/1/2025
 
@@ -115,58 +123,24 @@ Consultant Development Program 201
 Certificate of Completion: Ethical Conduct for Research Involving Humans
 :::
 
-
-
-
 <!--
+NOTE: Below is scraps for above. I've tested out different drop down menus, and I also have supplementary information I didn't think was as relevant as I started to get more and more certifications!
+
 <details class="callout callout-style-simple clean-dropdown">
   <summary>Certifications</summary>
   
   <h2>AZ-900: Microsoft Azure Fundamentals</h2>
 
-::: {#fig-az-fundamentals height=60%}
-![](../outputs/azure_fundamentals_cert.png)
-
-Microsoft Certified Azure Fundamentals
-:::
-
   <h2>CDP-101: Consultant Development Program at Long View Systems</h2>
 
-::: {#fig-lvs-101 height=60%}
-![](../outputs/cdp_101_cert.png)
-
-Consultant Development Program 101
-:::
-
   <h2>CDP-201: Consultant Development Program at Long View Systems</h2>
-
-::: {#fig-lvs-201 height=60%}
-![](../outputs/cdp_201_cert.png)
-
-Consultant Development Program 201
-:::
 </details>
-
----
 
 ::: {.callout .dropdown}
 # Course Certificates
 
 ## Lakehouse Architecture with Databricks
 
-<!--See https://customer-academy.databricks.com/learn/mycourses to view the course-->
-
-* Course ID: E-VP9791
-* Completed 5/5/2025
-
-
-::: {#fig-lakehouse height=60%}
-![](../outputs/databricks_certificate.png)
-
-Certificate of Completion: Get Started With Lakehouse Architecture
-:::
-
-
 <details>
 <summary>Course Topics and Objectives</summary>
 
@@ -198,36 +172,14 @@ Certificate of Completion: Get Started With Lakehouse Architecture
 > Explain how Databricks has adapted and built upon the cloud well-architected framework for the well-architected lakehouse framework.
 
 > List the seven pillars of the well-architected lakehouse framework.
-
 </details>
-
-## SQL Essential Training 
-
-[SQL Essential Training (LinkedIn Learning)](https://www.linkedin.com/learning/sql-essential-training-20685933/the-data-driven-world-19067626?u=264700066){target="_blank"}
-
-
-## Research Ethics
-
-* Completed 12/1/2025
-
-::: {#fig-research height=60%}
-![](../outputs/tcps2_core_certificate.png)
-
-Certificate of Completion: Ethical Conduct for Research Involving Humans
 :::
 
-:::
--->
-
-<!-- 
-## Additional Courses taken (without a Certificate)
-
+## Additional Courses taken with useful concepts
+* [SQL Essential Training (LinkedIn Learning)](https://www.linkedin.com/learning/sql-essential-training-20685933/the-data-driven-world-19067626?u=264700066){target="_blank"}
 * [Get started with Azure DevOps](https://learn.microsoft.com/en-us/training/paths/evolve-your-devops-practices/){target="_blank"}
-
 * [Get started with Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/){target="_blank"}
-
 * [Implement a data engineering solution with Azure Databricks](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer/){target="_blank"}
-
 * [Implement Generative AI engineering with Azure Databricks](https://learn.microsoft.com/en-us/training/paths/implement-generative-ai-engineering-azure-databricks/){target="_blank"}
 
 Psst! I hope you enjoyed looking at the source code :)
