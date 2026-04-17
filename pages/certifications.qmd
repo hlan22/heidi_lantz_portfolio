@@ -24,7 +24,7 @@ All certifications listed are currently valid and have been achieved in 2025/202
 ### PL-300: Power BI Data Analyst Associate 
 
 ::: {#fig-power-bi height=60%}
-![](../outputs/azure_fundamentals_cert.png)
+![]()
 
 Microsoft Certified: Power BI Data Analyst Associate
 :::
@@ -34,17 +34,22 @@ Microsoft Certified: Power BI Data Analyst Associate
 ### DP-600: Microsoft Fabric Data Analyst Associate 
 
 ::: {#fig-analytics-engineer height=600px}
-<iframe src="../outputs/fabric_analytics_engineer.pdf" width="100%" height="600px"></iframe>
+![]()
 
 Microsoft Certified: Fabric Analytics Engineer Associate
 :::
+
+<!-- 
+Don't like look of this pdf viewer:
+<iframe src="../outputs/fabric_analytics_engineer.pdf" width="100%" height="600px"></iframe>
+-->
 
 ---
 
 ### DP-700: Microsoft Fabric Data Engineer Associate 
 
 ::: {#fig-data-engineer height=600px}
-<iframe src="../outputs/fabric_data_engineer_pdf.pdf" width="100%" height="600px"></iframe>
+![]()
 
 Microsoft Certified: Fabric Data Engineer Associate
 :::
@@ -52,6 +57,12 @@ Microsoft Certified: Fabric Data Engineer Associate
 ---
 
 ### Snowflake SnowPro Core 
+
+::: {#fig-snowpro-core height=600px}
+![]()
+
+Snowflake Certified: Snowflake SnowPro Core
+:::
 
 ---
 
