@@ -1,36 +1,66 @@
 ---
-# title: Heidi Lantz
-format:
-  html:
-    css: styles.css
-lightbox: true
+pagetitle: "Heidi Lantz | Data Modernization Consultant"
+title-block-banner: false
 ---
 
-<div class="centered-title">Heidi Lantz</div>
-::: {.image-text-container}
+::: {.hero}
 
-::: {#fig-profile-picture}
+::: {.hero-text}
+<div class="hero-name">Heidi Lantz</div>
 
-![](outputs/norway_image.jpg){width=70% height=70% .lightbox}
+**Data modernization consultant, developing skills in both data engineering and data analysis.** Statistician by training, building on Databricks, Snowflake, Microsoft Fabric & Azure.
 
-Visiting the [*Gol Stave Church*](https://en.wikipedia.org/wiki/Gol_Stave_Church){target="_blank"} <br>
-during my semester at the **University of Oslo**!
+I help organizations move their data onto modern platforms and turn it into reports people trust. I work in Python, R, SQL and DAX.
+
+[Projects](pages/projects.qmd){.btn-solid} [Certifications](pages/certifications.qmd){.btn-solid} 
+<!-- [Resume](pages/resume.qmd){.btn-outline} -->
 :::
 
-<div>
-## About Me
+::: {.hero-photo}
+![Visiting the Gol Stave Church during my semester at UiO!](outputs/norway_image.jpg){.lightbox}
+:::
 
-Hi, I'm Heidi! 
-I'm a Data Modernization Consultant and am developing my skills to eventually become a Data Engineer.
+:::
 
-I graduated with a BSc. at the University of British Columbia (*UBC*) in May 2025! I finished with a Major in **Statistics** & a Minor in **Data Science**.
+<br>
 
-I frequently work with Databricks, Microsoft Fabric, and Power BI using the Python, R, SQL, and DAX languages.
-Please take a look through my website to learn more!
+## Featured work
 
-## Contact
-Please message on my **LinkedIn**: <br>
-[linkedin.com/in/heidilantz](https://www.linkedin.com/in/heidilantz/){target="_blank"} <br>
-**GitHub**: [github.com/hlan22](https://github.com/hlan22){target="_blank"}
-</div>
+::: {.card-grid}
+
+::: {.card .card-green}
+### Medical research consulting
+Analyzed glaucoma surgery outcomes for a real client in R, then presented the findings at a poster session and to the client.
+
+<span class="tag tag-green">Statistics</span> <span class="tag tag-green">R</span> <span class="tag tag-green">Client work</span>
+
+[Read more](pages/projects.qmd#capstone)
+:::
+
+::: {.card .card-purple}
+### Climate extremes research
+Used time series analysis in Python and R to find patterns in Canadian floods, droughts and wildfires, as an NSERC-funded research assistant.
+
+<span class="tag tag-purple">Time series</span> <span class="tag tag-purple">Python</span> <span class="tag tag-purple">Research</span>
+
+[Read more](pages/projects.qmd#research)
+:::
+
+::: {.card .card-blue}
+### easyEDA Python package
+A package that automates exploratory data analysis by choosing the right plot for each column's data type.
+
+<span class="tag tag-blue">Python</span> <span class="tag tag-blue">Package development</span>
+
+[Read more](pages/projects.qmd#easy)
+:::
+
+:::
+
+## What I work with
+
+::: {.skills}
+<span class="tag tag-blue">Databricks</span> <span class="tag tag-blue">Microsoft Fabric</span> <span class="tag tag-blue">Power BI</span> <span class="tag tag-blue">Azure</span>
+<span class="tag tag-green">Python</span> <span class="tag tag-green">R</span> <span class="tag tag-green">SQL</span> <span class="tag tag-green">DAX</span>
+<span class="tag tag-purple">Statistics</span> <span class="tag tag-purple">Experimentation</span> <span class="tag tag-purple">Data modelling</span>
 :::
