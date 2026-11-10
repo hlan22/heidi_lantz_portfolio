@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hlan22.github.io/heidi_lantz_portfolio/index.html</loc>
-    <lastmod>2026-04-17T20:12:39.220Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hlan22.github.io/heidi_lantz_portfolio/pages/projects.html</loc>
-    <lastmod>2026-04-17T20:12:39.269Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hlan22.github.io/heidi_lantz_portfolio/pages/website_info.html</loc>
-    <lastmod>2026-04-17T20:12:39.269Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hlan22.github.io/heidi_lantz_portfolio/pages/certifications.html</loc>
-    <lastmod>2026-04-17T20:12:39.269Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hlan22.github.io/heidi_lantz_portfolio/pages/visualizations.html</loc>
-    <lastmod>2026-04-17T20:12:39.269Z</lastmod>
+    <loc>https://hlan22.github.io/heidi_lantz_portfolio/pages/resume.html</loc>
+    <lastmod>2026-11-10T04:15:09.326Z</lastmod>
   </url>
   <url>
     <loc>https://hlan22.github.io/heidi_lantz_portfolio/pages/courses.html</loc>
-    <lastmod>2026-04-17T20:12:39.269Z</lastmod>
+    <lastmod>2026-11-10T04:15:09.326Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hlan22.github.io/heidi_lantz_portfolio/pages/certifications.html</loc>
+    <lastmod>2026-11-10T04:15:09.326Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hlan22.github.io/heidi_lantz_portfolio/index.html</loc>
+    <lastmod>2026-11-10T04:15:09.302Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hlan22.github.io/heidi_lantz_portfolio/pages/projects.html</loc>
+    <lastmod>2026-11-10T04:15:09.326Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hlan22.github.io/heidi_lantz_portfolio/pages/visualizations.html</loc>
+    <lastmod>2026-11-10T04:15:09.326Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hlan22.github.io/heidi_lantz_portfolio/pages/about.html</loc>
+    <lastmod>2026-11-10T04:15:09.325Z</lastmod>
   </url>
 </urlset>

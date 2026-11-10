@@ -1,58 +1,86 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Heidi's Portfolio",
+    "objectID": "pages/resume.html",
+    "href": "pages/resume.html",
+    "title": "Resume",
     "section": "",
-    "text": "Heidi Lantz"
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Heidi's Portfolio",
-    "section": "About Me",
-    "text": "About Me\nHi, I’m Heidi! I’m a Data Modernization Consultant and am developing my skills to eventually become a Data Engineer.\nI graduated with a BSc. at the University of British Columbia (UBC) in May 2025! I finished with a Major in Statistics & a Minor in Data Science.\nI frequently work with Databricks, Microsoft Fabric, and Power BI using the Python, R, SQL, and DAX languages. Please take a look through my website to learn more!"
-  },
-  {
-    "objectID": "index.html#contact",
-    "href": "index.html#contact",
-    "title": "Heidi's Portfolio",
-    "section": "Contact",
-    "text": "Contact\nPlease message on my LinkedIn:  linkedin.com/in/heidilantz  GitHub: github.com/hlan22"
-  },
-  {
-    "objectID": "pages/projects.html",
-    "href": "pages/projects.html",
-    "title": "",
-    "section": "",
-    "text": "Code\n\n\n\n\n\nPersonal Projects\n\n\nAll projects listed were completed in 2024/2025 and were from a class project, hackathon, or just personal interest! Feel free to reach out on my LinkedIn if you want to learn more!\n\n1. Statistical Research Consulting (Capstone Project)\n\nReal consulting work for a client in medical research, analyzing changes and affects with glaucoma eye surgery\nRegularly presented work with professor Rodolfo Lourenzutti to ensure high-quality and reliable work was produced\nMet with client, presented findings at a poster board session, and did technical oral presentations to the STAT 450 class\nProduced written reports code repository, and visualizations using the R programming language and GitHub\nLearned extensively about complications with study design, model selection, and effective statistical communication\n\n\n\n\n\n\n\nFigure 1: Our Final Poster Board!\n\n\n\n\n\n\n2. The Daily Grind (CMD-F Hackathon)\n\nA 24-hour computer science Hackathon in 2025 with 50+ projects and 200+ participants competing\nOur project was the Winner of the “Social Track” where we created a useful coffee-chat conversation starter\nWon 3rd place overall, after presenting to 7 judges and being invited to present in front of the entire Hackathon community (over 250+ people).\nFor more information, please see the project on our Devpost.\n\n\n\n\n\n\n\nFigure 2: Preview of the conversation starter! This is a popup window where you can add additional information to help create useful conversation topics. For more info, see our devpost.\n\n\n\n\n\n\n3. Software Packages and Reproducible CI/CD Projects\nIn my DSCI 310 class (Reproducible and Trustworthy Workflows), we wanted to created both a data analysis project and a package that is a fully reproducible. This project promoted many sustainable data practices, including:\n\nA well documented and modularized software package and scripts written in R,\nA data analysis pipeline automated with GNU Make and Makefile’s,\nA reproducible report powered by R Markdown and Quarto,\nA containerized computational environment created and made shareable by Docker, and\nA remote version control repository on GitHub for project collaboration and sharing,\nAs well as automation of test suite execution and documentation and software deployment.\n\nFor my group’s work, see the R package repository here and the analysis repository here.\n\n\n\n\n\n\nFigure 3: Preview of Package Repository. See the package here and the analysis here.\n\n\n\n\n\n\n4. Weather Extremes Research\n\nWorking as a Research Assistant at UBC during Summer 2024 under an URSA NSERC scholarship.\nThe goal was to find patterns and explanations for climate extremes. Regularly dealt with Canadian weather data relating to floods, droughts, and wildfires.\nCompleted EDA and used various statistical analyses to gain insight into weather patterns and time series analysis.\nUsing Python and R programming languages with RStudio IDE and Quarto for presentations.\nAnalyzed many research papers, presented work weekly, and assisted both professor Harry Joe and professor Natalia Nolde with various tasks.\nI’m currently in the process of cleaning up the work to be published on a public repository!\n\n\n\n\n5. DataFest Statistical Analysis Project\n\nA 48 hour Hackathon in a team of 3 for the American Statistical Association.\nCreated a fully reproducible project with lots of EDA (Exploratory Data Analysis) and complex statistical analysis using a Bayesian model\nProduced a data dashboard, demonstration video, presentation slides using Quarto.\nSee the repository here: https://github.com/hlan22/asa_datafest_2025\n\n\n\n\n\n\n\nASA Datafest Presentation\n\n\n\n\nFigure 4: See the presentation here.\n\n\n\n\n\n\n6. Custom Python Dashboard\n\nDSCI 320 Dashboard\nWith the help of two group members, we created the following dashboard where we looked into trends for attendance at libraries in the San Francisco area. We had the requirement to create inventive visualizations to explain 4 questions. The dashboard is fully interactive and has toggle options (not shown in image below).\n\n\n\n\n\n\nFigure 5: Custom dashboard for DSCI 320 Course: Data Visualization\n\n\n\n\n\n\n\n7. wordplayr - An R Package\n\nThe aim of wordplayr is to gain insights and discover patterns about your favorite list of words! Learn about metrics such as average word length, most common starting letters, frequent vowel sounds used in your words, and much more with ease!\nA fully functioning R package with clear README.Rmd instructions on how to install and use, along with a vignette, package website, and Roxygen comments to help guide the user.\nI built a list of my favorite words over the past few years, and I really wanted to learn more about why I like those words and if I could see any common patterns with them. This is what inspired me to make this package! If you’re curious, my favorite words most frequently start with the letter ‘C’!\nSee the R package repository and the package website.\n\n\n\n\n\n\n\nFigure 6: Preview of the package website\n\n\n\n\n\n\n8. easyEDA - A Python Package\n\nA Python Package (currently in progress) that helps automate EDA for any given dataset.\nFunctions will quickly and easily create proper plots based on data types, for any and all columns.\nAllows for easy and relaxed exploration of a dataset, but also allows for complex analysis and presentation-ready visualizations.\nCoded with Python with implementation for interactive visuals, but will eventually expand to an R package as well.\nLink to the repository here"
-  },
-  {
-    "objectID": "pages/website_info.html",
-    "href": "pages/website_info.html",
-    "title": "All About Websites!",
-    "section": "",
-    "text": "This is my first website, so here I will talk about important info I learn here!\n\nFor basic information on Quarto websites I started with: https://quarto.org/docs/websites.\n\nAny special customization that I do, I hope to outline here as a guide to making your own!\n\nMarkdown tips\n\nTo receive the outline shown on the right-hand side of this page, specify in the YAML header the following: toc: true.\n\n\n\nStyling and Rendering\n\nCreate a styles.css file (in the same directory as your index.qmd file) to create custom HTML styling.\n\nFor example, the way I created the purple box shown at the bottom of this page is done by putting the following in the styles.css file:\n\n\n.purplebox {\n    background-color: #e3dfff; /* Light Purple */\n    border: 3px solid #7a5fa3; /* Dark Purple */\n    color: #3d236f; /* Text Color */\n    padding: 10px;\n    border-radius: 8px;\n    text-align: center;\n    font-weight: bold;\n    font-family: sans-serif;\n  }\n\nWhich you can then execute by putting this in your document:\n\n:::: purplebox\n::: center\n**NOTICE!**\\\nPlease know that I am still updating this website... I hope to finish it soon :)\n:::\n::::\n\nYou can create a dropdown menu by doing the following HTML code:\n\n&lt;details&gt;\n&lt;summary&gt;Dropdown title&lt;/summary&gt;\nContents you want inside the dropdown menu\n&lt;/details&gt; \nWhich looks like:\n\n\nDropdown title\n\nContents you want inside the dropdown menu\n\n\n\nNOTICE!\nPlease know that I am still updating this website… I hope to finish it soon :)"
-  },
-  {
-    "objectID": "pages/certifications.html",
-    "href": "pages/certifications.html",
-    "title": "",
-    "section": "",
-    "text": "Code\n\n\n\n\n\nMy Certifications & Certificates\n\nAll certifications listed are currently valid and have been achieved in 2025/2026!\n\nTechnical Certifications\n\n\nPL-300: Power BI Data Analyst Associate\n\n\n\n\n\n\nFigure 1: Microsoft Certified: Power BI Data Analyst Associate\n\n\n\n\n\n\nDP-600: Microsoft Fabric Data Analyst Associate\n\n\n\n\n\n\nFigure 2: Microsoft Certified: Fabric Analytics Engineer Associate\n\n\n\n\n\n\n\nDP-700: Microsoft Fabric Data Engineer Associate\n\n\n\n\n\n\nFigure 3: Microsoft Certified: Fabric Data Engineer Associate\n\n\n\n\n\n\nSnowflake SnowPro Core\n\n\n\n\n\n\nFigure 4: Snowflake Certified: Snowflake SnowPro Core\n\n\n\n\n\n\nDP-900: Azure Data Fundamentals\n\n\n\n\n\n\nFigure 5: Microsoft Certified: Azure Data Fundamentals\n\n\n\n\n\n\nAZ-900: Microsoft Azure Fundamentals\n\n\n\n\n\n\nFigure 6: Microsoft Certified: Azure Fundamentals\n\n\n\n\n\n\n\nCourse Certificates\n\n\nDatabricks Fundamentals\n\nCourse ID: E-VP9791\nCompleted 5/5/2025\n\n\n\n\n\n\n\nFigure 7: Certificate: Get Started With Lakehouse Architecture\n\n\n\n\n### CDP-101: Consultant Development Program at Long View Systems\n\n\n\n\n\n\n\nFigure 8: Consultant Development Program 101\n\n\n\n\n### CDP-201: Consultant Development Program at Long View Systems\n\n\n\n\n\n\n\nFigure 9: Consultant Development Program 201\n\n\n\n\n\n\nResearch Ethics\n\nCompleted 12/1/2025\n\n\n\n\n\n\n\nFigure 10: Certificate of Completion: Ethical Conduct for Research Involving Humans"
-  },
-  {
-    "objectID": "pages/visualizations.html",
-    "href": "pages/visualizations.html",
-    "title": "My Visualizations",
-    "section": "",
-    "text": "This page will showcase different visualizations I have created and am proud of!\n\n\nNOTICE!\nPlease know that I am still updating this website… I hope to finish it soon :)"
+    "text": "Download PDF"
   },
   {
     "objectID": "pages/courses.html",
     "href": "pages/courses.html",
     "title": "Courses",
     "section": "",
-    "text": "Courses Taken At UBC\n\n\nData Science\n\nDSCI 310: Reproducible and Trustworthy Workflows\n\ndetails\n\nDSCI 320: Data Visualization\n\ndetails\n\n\n\n\nStatistics\n\nSTAT 443: Time Series and Forecasting\n\ndetails\n\n\n\n\nComputer Science\n\nCPSC 304\nCPSC 210\nCPSC 110\n\n\n\nMath\n\nMATH 101\nMATH 100\n\n\n\nBusiness\n\nCOMR 398\n\nAn organization’s ultimate success depends on how efficiently and effectively it executes its strategic goals. This requires a detailed understanding of the processes used to produce and deliver goods and/or services to customers including:\n\nprocess analysis\nqueuing systems\nproject management\ninventory management\nsupply chain management\n\nUpon successful completion of this course, students will have the managerial tools needed to understand and articulate the impact of an organization’s business processes, and the ability to analyze and continuously improve these business processes.\n\n\n\n\nOther Courses"
+    "text": "Data Science\n\nDSCI 310: Reproducible and Trustworthy Workflows. Built an R package and a Docker, Make and GitHub Actions pipeline. See the project.\nDSCI 320: Data Visualization. Built an interactive dashboard. See the project."
+  },
+  {
+    "objectID": "pages/courses.html#additional-learning",
+    "href": "pages/courses.html#additional-learning",
+    "title": "Courses",
+    "section": "Additional learning",
+    "text": "Additional learning\n\nSQL Essential Training (LinkedIn Learning)\nGet started with Azure DevOps\nGet started with Microsoft Fabric\nImplement a data engineering solution with Azure Databricks\nImplement Generative AI engineering with Azure Databricks"
+  },
+  {
+    "objectID": "pages/certifications.html",
+    "href": "pages/certifications.html",
+    "title": "Certifications",
+    "section": "",
+    "text": "Technical certifications\n\n\nPL-300: Power BI Data Analyst Associate\n\n\n\nMicrosoft Certified: Power BI Data Analyst Associate\n\n\n\n\nDP-600: Fabric Analytics Engineer Associate\n\n\n\nMicrosoft Certified: Fabric Analytics Engineer Associate\n\n\n\n\nDP-700: Fabric Data Engineer Associate\n\n\n\nMicrosoft Certified: Fabric Data Engineer Associate\n\n\n\n\nSnowflake SnowPro Core\n\n\n\nCredential ID: S127396-251223-COF\n\n\n\n\nSC-401: Information Security Administrator Associate\n\n\n\nMicrosoft Certified: Information Security Administrator Associate\n\n\n\n\nDP-900: Azure Data Fundamentals\n\n\n\nMicrosoft Certified: Azure Data Fundamentals\n\n\n\n\nSC-900: Security, Compliance, and Identity Fundamentals\n\n\n\nMicrosoft Certified: Security, Compliance, and Identity Fundamentals\n\n\n\n\nAZ-900: Azure Fundamentals\n\n\n\nMicrosoft Certified: Azure Fundamentals\n\n\n\n\n\n\nCourse certificates\n\n\nDatabricks: Lakehouse Architecture\n\n\n\nGet Started With Lakehouse Architecture\n\n\n\n\nLong View Systems CDP-101\n\n\n\nConsultant Development Program 101\n\n\n\n\nLong View Systems CDP-201\n\n\n\nConsultant Development Program 201\n\n\n\n\nResearch Ethics (TCPS 2 CORE)\n\n\n\nEthical Conduct for Research Involving Humans"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Heidi Lantz",
+    "section": "",
+    "text": "Heidi Lantz\n\nData modernization consultant, developing skills in both data engineering and data analysis. Statistician by training, building on Databricks, Snowflake, Microsoft Fabric & Azure.\nI help organizations move their data onto modern platforms and turn it into reports people trust. I work in Python, R, SQL and DAX.\nProjects Certifications \n\n\n\n\n\nVisiting the Gol Stave Church during my semester at UiO!"
+  },
+  {
+    "objectID": "index.html#featured-work",
+    "href": "index.html#featured-work",
+    "title": "Heidi Lantz",
+    "section": "Featured work",
+    "text": "Featured work\n\n\nMedical research consulting\nAnalyzed glaucoma surgery outcomes for a real client in R, then presented the findings at a poster session and to the client.\nStatistics R Client work\nRead more\n\n\nClimate extremes research\nUsed time series analysis in Python and R to find patterns in Canadian floods, droughts and wildfires, as an NSERC-funded research assistant.\nTime series Python Research\nRead more\n\n\neasyEDA Python package\nA package that automates exploratory data analysis by choosing the right plot for each column’s data type.\nPython Package development\nRead more"
+  },
+  {
+    "objectID": "index.html#what-i-work-with",
+    "href": "index.html#what-i-work-with",
+    "title": "Heidi Lantz",
+    "section": "What I work with",
+    "text": "What I work with\n\nDatabricks Microsoft Fabric Power BI Azure Python R SQL DAX Statistics Experimentation Data modelling"
+  },
+  {
+    "objectID": "pages/projects.html",
+    "href": "pages/projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Hackathons and research Statistics and analytics Software and engineering\n\nPlease reach out on LinkedIn if you want to learn more about any of these.\n\n\nThe Daily Grind (CMD-F 2025)Built a conversation-starter web app in 24 hours that won the Social track and placed 3rd overall out of 50+ projects.Hackathon Team project\n\nA 24-hour hackathon with 50+ projects and 200+ participants. We built a coffee-chat conversation starter that won the Social track and placed 3rd overall. After presenting to 7 judges we were invited to present to the whole hackathon community of 250+ people.\n\n\n\nPreview of the conversation starter. Users add details in a popup and get conversation topics.\n\n\nSee it on Devpost\n\n\n\nDataFest Statistical Analysis (ASA 2025)A fully reproducible 48-hour analysis with a Bayesian model, delivered with a dashboard, demo video and slides, all in Quarto.Bayesian modelling EDA Hackathon\n\nA 48-hour American Statistical Association DataFest project with a team of 3. We built a fully reproducible analysis with extensive EDA and a Bayesian model, and delivered a dashboard, demo video and presentation slides, all made with Quarto.\nPresentation · Repository\n\n\n\nStatistical Research Consulting (Capstone)Real client work in medical research: analyzed glaucoma surgery outcomes in R, presented at a poster session and to the client.Statistics R Consulting\n\nReal consulting work for a client in medical research, analyzing changes after glaucoma eye surgery (STAT 450).\n\nPresented regularly to Professor Rodolfo Lourenzutti to keep the work reliable.\nMet with the client, presented findings at a poster session, and gave technical oral presentations.\nProduced written reports, a code repository and visualizations in R and GitHub.\nLearned a lot about study design, model selection and communicating statistics.\n\n\n\n\nOur final poster board\n\n\n\n\n\nReproducible Software and CI/CD (DSCI 310)An R package plus an automated analysis pipeline using Docker, GNU Make and GitHub Actions, with tests and documentation.R package Docker GitHub Actions\n\nA group project to build a data analysis and a package that are fully reproducible:\n\nA documented, modular R package and scripts\nAn analysis pipeline automated with GNU Make\nA reproducible report in R Markdown and Quarto\nA containerized environment shared through Docker\nAutomated tests, documentation and deployment\n\n\n\n\nPreview of the package repository\n\n\nPackage repository · Analysis repository\n\n\n\nThis Portfolio WebsiteA multi-page site built with Quarto and custom CSS, deployed on GitHub Pages, with a responsive layout that works on phones.Quarto CSS GitHub Pages\n\nI designed and built this site myself. It is written in Quarto and hosted on GitHub Pages.\n\nA custom stylesheet with a consistent palette and color-coded project tracks\nA responsive layout, including a hero section, card grids and expandable project sections\nSeparate pages for projects, certifications and courses, with image lightboxes\n\nRepository\n\n\n\nWeather Extremes ResearchSummer research assistantship (URSA NSERC) using time series analysis in Python and R to find patterns in Canadian floods, droughts and wildfires.Research Time series Python\n\nResearch assistant at UBC in summer 2024 under a URSA NSERC scholarship, working with Professors Harry Joe and Natalia Nolde. I explored Canadian weather data on floods, droughts and wildfires to find patterns, using EDA and time series analysis, and presented my work weekly. I’m cleaning up the code to publish it in a public repository.\n\n\n\nLibrary Attendance Dashboard (DSCI 320)An interactive Python dashboard on San Francisco library attendance, built with two teammates to answer four research questions.Python Data visualization\n\nWith two teammates, I built an interactive dashboard on library attendance in the San Francisco area. The course required inventive visualizations to answer 4 questions, and the dashboard has toggles that the image doesn’t show.\n\n\n\nCustom dashboard for DSCI 320: Data Visualization\n\n\n\n\n\nwordplayr, an R packageA documented R package with a vignette and a pkgdown website that finds patterns in word lists.R package Roxygen pkgdown\n\nwordplayr finds patterns in a list of words: average word length, common starting letters, frequent vowel sounds and more. It has a README with install instructions, a vignette, a package website and Roxygen documentation. I built it to learn why I like my favorite words (they most often start with “C”).\n\n\n\nPreview of the package website\n\n\nRepository · Website\n\n\n\neasyEDA, a Python package (in progress)A Python package that automates exploratory data analysis by choosing the right plot for each column’s data type.Python package EDA\n\nA package that automates EDA for any dataset by picking suitable plots for each column’s data type. It supports quick exploration and presentation-ready, interactive visuals, and I plan to add an R version.\nRepository"
+  },
+  {
+    "objectID": "pages/visualizations.html",
+    "href": "pages/visualizations.html",
+    "title": "Data Visualizations",
+    "section": "",
+    "text": "This page will show different visualizations I have created and am proud of."
+  },
+  {
+    "objectID": "pages/about.html",
+    "href": "pages/about.html",
+    "title": "About",
+    "section": "",
+    "text": "I’m a data modernization consultant working toward a career in data engineering. I graduated from the University of British Columbia in May 2025 with a major in Statistics and a minor in Data Science, including a semester at the University of Oslo.\nDay to day I work with Databricks, Microsoft Fabric and Power BI in Python, R, SQL and DAX. I’m interested in data engineering, Azure consulting, and analytics and experimentation roles.\nMy statistics background shows up in my work: I’ve done a research consulting capstone, a research assistantship in climate extremes, and hackathons where we shipped under pressure. Outside of work, I enjoy running, climbing, and crocheting."
+  },
+  {
+    "objectID": "pages/about.html#credentials",
+    "href": "pages/about.html#credentials",
+    "title": "About",
+    "section": "Credentials",
+    "text": "Credentials\nI hold many technical certifications, including Power BI, Microsoft Fabric and Snowflake."
+  },
+  {
+    "objectID": "pages/about.html#contact",
+    "href": "pages/about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\n\nLinkedIn: linkedin.com/in/heidilantz\nGitHub: github.com/hlan22\nEmail: heidilantz22@gmail.com"
   }
 ]
