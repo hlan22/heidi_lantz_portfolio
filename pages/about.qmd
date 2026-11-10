@@ -1,0 +1,21 @@
+---
+title: "About"
+---
+
+I'm a data modernization consultant working toward a career in data engineering. I graduated from the University of British Columbia in May 2025 with a major in **Statistics** and a minor in **Data Science**, including a semester at the University of Oslo.
+
+Day to day I work with Databricks, Microsoft Fabric and Power BI in Python, R, SQL and DAX. I'm interested in data engineering, Azure consulting, and analytics and experimentation roles.
+
+My statistics background shows up in my work: I've done a research consulting capstone, a research assistantship in climate extremes, and hackathons where we shipped under pressure. Outside of work, I enjoy running, climbing, and crocheting.
+
+## Credentials
+
+I hold [many technical certifications](certifications.qmd), including Power BI, Microsoft Fabric and Snowflake. 
+
+<!-- See the [courses](courses.qmd) I've taken as well. -->
+
+## Contact
+
+- **LinkedIn:** [linkedin.com/in/heidilantz](https://www.linkedin.com/in/heidilantz/){target="_blank"}
+- **GitHub:** [github.com/hlan22](https://github.com/hlan22){target="_blank"}
+- **Email:** [heidilantz22@gmail.com](mailto:heidilantz22@gmail.com)

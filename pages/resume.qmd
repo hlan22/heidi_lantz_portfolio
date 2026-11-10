@@ -1,0 +1,7 @@
+---
+title: "Resume"
+---
+
+[Download PDF](outputs/Heidi_Lantz_Resume.pdf){.btn-solid}
+
+<!-- Todo: Will add a plain text version of resume below -->
