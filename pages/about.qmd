@@ -19,3 +19,15 @@ I hold [many technical certifications](certifications.qmd), including Power BI, 
 - **LinkedIn:** [linkedin.com/in/heidilantz](https://www.linkedin.com/in/heidilantz/){target="_blank"}
 - **GitHub:** [github.com/hlan22](https://github.com/hlan22){target="_blank"}
 - **Email:** [heidilantz22@gmail.com](mailto:heidilantz22@gmail.com)
+
+Thanks for visiting my portfolio website! 
+Total page views (since website re-vamp): <span id="views">…</span>
+
+```{=html}
+<script>
+fetch("https://heidilantz.goatcounter.com/counter/TOTAL.json")
+  .then(r => r.json())
+  .then(d => document.getElementById("views").innerText = d.count)
+  .catch(() => document.getElementById("views").innerText = "");
+</script>
+```

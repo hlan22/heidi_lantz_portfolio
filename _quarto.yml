@@ -48,6 +48,10 @@ format:
       gutter-width: 1.5rem
     title-block-banner: "#0b2a5b"
     title-block-banner-color: "#ffffff"
+    include-after-body:
+      text: |
+        <script data-goatcounter="https://heidilantz.goatcounter.com/count"
+                async src="//gc.zgo.at/count.js"></script>
 
 # overwrite any render-on-save option
 editor:
