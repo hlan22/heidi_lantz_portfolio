@@ -1,71 +1,46 @@
 ---
 title: "Courses"
-toc: true
-# title-block-banner: true # Puts "Courses and Certifications" in blue banner
-format:
-  html:
-    css: styles.css
+subtitle: "Coursework at UBC, grouped by subject"
 ---
 
-
-### Courses Taken At UBC
-
-<details>
+<details open>
 <summary>Data Science</summary>
 
-DSCI 310: Reproducible and Trustworthy Workflows
+**DSCI 310: Reproducible and Trustworthy Workflows.** Built an R package and a Docker, Make and GitHub Actions pipeline. See the [project](projects.qmd#reproducible).
 
-* details
-
-DSCI 320: Data Visualization
-
-* details
+**DSCI 320: Data Visualization.** Built an interactive dashboard. See the [project](projects.qmd#dashboard).
 </details>
 
 <details>
 <summary>Statistics</summary>
 
-STAT 443: Time Series and Forecasting
+**STAT 443: Time Series and Forecasting.** *(Add one line on what you covered.)*
 
-* details
-
-</details> 
-
+**STAT 450: Statistical Consulting.** My capstone with a medical research client. See the [project](projects.qmd#capstone).
+</details>
 
 <details>
 <summary>Computer Science</summary>
-CPSC 304
 
-CPSC 210
-
-CPSC 110
-</details> 
+**CPSC 304:** Relational databases. **CPSC 210:** Software construction. **CPSC 110:** Programming fundamentals.
+</details>
 
 <details>
 <summary>Math</summary>
 
-MATH 101
-
-MATH 100
-
-</details> 
+**MATH 100:** Differential calculus. **MATH 101:** Integral calculus.
+</details>
 
 <details>
-<summary>Business</summary>
-COMR 398
+<summary>Business (Sauder)</summary>
 
-* An organization's ultimate success depends on how efficiently and effectively it executes its strategic goals. This requires a detailed understanding of the processes used to produce and deliver goods and/or services to customers including:
+**COMR 398: Operations Management.** A study of how organizations execute strategy through their processes, including process analysis, queuing systems, project management, inventory management and supply chain management. It gave me the tools to analyze and continuously improve business processes.
+</details>
 
-  * process analysis
-  * queuing systems
-  * project management
-  * inventory management
-  * supply chain management
-  
-* Upon successful completion of this course, students will have the managerial tools needed to understand and articulate the impact of an organization's business processes, and the ability to analyze and continuously improve these business processes.
-</details> 
+## Additional learning
 
-<details>
-<summary>Other Courses</summary>
-
-</details> 
+- [SQL Essential Training (LinkedIn Learning)](https://www.linkedin.com/learning/sql-essential-training-20685933/the-data-driven-world-19067626?u=264700066){target="_blank"}
+- [Get started with Azure DevOps](https://learn.microsoft.com/en-us/training/paths/evolve-your-devops-practices/){target="_blank"}
+- [Get started with Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/){target="_blank"}
+- [Implement a data engineering solution with Azure Databricks](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer/){target="_blank"}
+- [Implement Generative AI engineering with Azure Databricks](https://learn.microsoft.com/en-us/training/paths/implement-generative-ai-engineering-azure-databricks/){target="_blank"}

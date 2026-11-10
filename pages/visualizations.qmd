@@ -1,15 +1,5 @@
 ---
-title: "My Visualizations"
-format:
-  html:
-    css: styles.css
+title: "Data Visualizations"
 ---
 
-This page will showcase different visualizations I have created and am proud of!
-
-:::: purplebox
-::: center
-**NOTICE!**\
-Please know that I am still updating this website... I hope to finish it soon :)
-:::
-::::
+This page will show different visualizations I have created and am proud of.
