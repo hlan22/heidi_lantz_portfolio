@@ -2,8 +2,9 @@ project:
   type: website 
 
 website:
-  title: "Heidi's Portfolio"
-  navbar:
+  title: "Heidi Lantz"
+  navbar: 
+    background: primary
     left:
       - href: index.qmd
         text: "Home"
@@ -11,16 +12,42 @@ website:
         text: "Projects"
       - href: pages/certifications.qmd
         text: "Certifications"
+      - href: pages/about.qmd
+        text: "About"
+      # - text: Credentials  # Note: to be implemented soon...
+      #   menu:
+      #     - href: pages/certifications.qmd
+      #       text: Certifications
+      #     - href: pages/courses.qmd
+      #       text: Courses
+      # - href: pages/resume.qmd
+      #   text: "Resume"
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/heidilantz/
+        aria-label: LinkedIn
+      - icon: github
+        href: https://github.com/hlan22
+        aria-label: GitHub
+      - icon: envelope
+        href: mailto:heidilantz22@gmail.com
+        aria-label: Email
+  page-footer:
+    center: "© 2026 Heidi Lantz · Built with Quarto"
 
 format:
   html:
-    theme:
-      - flatly
-      - brand
+    theme: cosmo # - flatly # - brand
     css: styles.css
-    toc: true
-
-# editor: visual
+    lightbox: true
+    toc: false
+    grid:
+      sidebar-width: 0px
+      body-width: 1200px
+      margin-width: 0px
+      gutter-width: 1.5rem
+    title-block-banner: "#0b2a5b"
+    title-block-banner-color: "#ffffff"
 
 # overwrite any render-on-save option
 editor:
