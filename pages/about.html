@@ -196,6 +196,13 @@ background: #0b2a5b;
 <li><strong>GitHub:</strong> <a href="https://github.com/hlan22" target="_blank">github.com/hlan22</a></li>
 <li><strong>Email:</strong> <a href="mailto:heidilantz22@gmail.com">heidilantz22@gmail.com</a></li>
 </ul>
+<p>Thanks for visiting my portfolio website! Total page views (since website re-vamp): <span id="views">…</span></p>
+<script>
+fetch("https://heidilantz.goatcounter.com/counter/TOTAL.json")
+  .then(r => r.json())
+  .then(d => document.getElementById("views").innerText = d.count)
+  .catch(() => document.getElementById("views").innerText = "");
+</script>
 
 
 </section>
@@ -691,6 +698,7 @@ background: #0b2a5b;
     </div>
   </div>
 </footer>
+<script data-goatcounter="https://heidilantz.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
 
 
 
