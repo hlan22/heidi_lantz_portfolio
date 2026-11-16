@@ -1,35 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hlan22.github.io/heidi_lantz_portfolio/pages/resume.html</loc>
-    <lastmod>2026-11-16T01:12:18.593Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hlan22.github.io/heidi_lantz_portfolio/pages/courses.html</loc>
-    <lastmod>2026-11-16T01:12:18.593Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hlan22.github.io/heidi_lantz_portfolio/pages/certifications.html</loc>
-    <lastmod>2026-11-16T01:12:18.593Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hlan22.github.io/heidi_lantz_portfolio/pages/awards.html</loc>
-    <lastmod>2026-11-16T01:12:18.593Z</lastmod>
-  </url>
-  <url>
     <loc>https://hlan22.github.io/heidi_lantz_portfolio/index.html</loc>
-    <lastmod>2026-11-16T01:12:18.572Z</lastmod>
+    <lastmod>2026-11-16T01:19:52.732Z</lastmod>
   </url>
   <url>
     <loc>https://hlan22.github.io/heidi_lantz_portfolio/pages/projects.html</loc>
-    <lastmod>2026-11-16T01:12:18.593Z</lastmod>
+    <lastmod>2026-11-16T01:19:52.755Z</lastmod>
   </url>
   <url>
-    <loc>https://hlan22.github.io/heidi_lantz_portfolio/pages/visualizations.html</loc>
-    <lastmod>2026-11-16T01:12:18.593Z</lastmod>
+    <loc>https://hlan22.github.io/heidi_lantz_portfolio/pages/awards.html</loc>
+    <lastmod>2026-11-16T01:19:52.755Z</lastmod>
   </url>
   <url>
     <loc>https://hlan22.github.io/heidi_lantz_portfolio/pages/about.html</loc>
-    <lastmod>2026-11-16T01:12:18.592Z</lastmod>
+    <lastmod>2026-11-16T01:19:52.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hlan22.github.io/heidi_lantz_portfolio/pages/courses.html</loc>
+    <lastmod>2026-11-16T01:19:52.755Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hlan22.github.io/heidi_lantz_portfolio/pages/resume.html</loc>
+    <lastmod>2026-11-16T01:19:52.755Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hlan22.github.io/heidi_lantz_portfolio/pages/certifications.html</loc>
+    <lastmod>2026-11-16T01:19:52.755Z</lastmod>
   </url>
 </urlset>

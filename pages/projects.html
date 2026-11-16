@@ -46,10 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4ea8c56fc8180763517e9e1bbb21a186.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a0e8c851645fd186c96634fc6bc9e278.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -165,7 +162,7 @@ background: #0b2a5b;
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Projects</h1>
-            <p class="subtitle lead">Click on a project to read more</p>
+            <p class="subtitle lead">Personal, academic and hackathon projects</p>
                       </div>
   </div>
     
@@ -189,53 +186,135 @@ background: #0b2a5b;
 
 
 
-<div class="legend">
-<p><span class="tag tag-purple">Hackathons and research</span> <span class="tag tag-green">Statistics and analytics</span> <span class="tag tag-blue">Software and engineering</span></p>
-</div>
-<p>Please reach out on <a href="https://www.linkedin.com/in/heidilantz/" target="_blank">LinkedIn</a> if you want to learn more about any of these.</p>
-<details class="project card-purple" id="cmdf">
+<details class="project p-purple" id="mindtheai">
 <summary>
-<span class="ptitle">The Daily Grind (CMD-F 2025)</span><span class="pitch">Built a conversation-starter web app in 24 hours that won the Social track and placed 3rd overall out of 50+ projects.</span><span class="ptags"><span class="tag tag-purple">Hackathon</span> <span class="tag tag-purple">Team project</span></span>
+<span class="psummary"><span class="ptitle">MindTheAI (CMD-F 2026)</span><span class="pitch">A Chrome extension for responsible AI use that protects sensitive information, flags unreliable sources and nudges users to rethink unnecessary prompts. Won the 1Password security prize.</span><span class="pmeta"><span class="pcat">Hackathon</span> · Chrome extension · Responsible AI · Security · March 2026</span></span><span class="ptoggle"></span>
 </summary>
-<p>A 24-hour hackathon with 50+ projects and 200+ participants. We built a coffee-chat conversation starter that won the <strong>Social track</strong> and placed <strong>3rd overall</strong>. After presenting to 7 judges we were invited to present to the whole hackathon community of 250+ people.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/317/679/datas/gallery.jpg" class="img-fluid figure-img"></p>
-<figcaption>Preview of the conversation starter. Users add details in a popup and get conversation topics.</figcaption>
-</figure>
-</div>
-<a href="https://devpost.com/software/the-daily-grind" target="_blank">See it on Devpost</a>
-</details>
-<details class="project card-purple" id="datafest">
-<summary>
-<span class="ptitle">DataFest Statistical Analysis (ASA 2025)</span><span class="pitch">A fully reproducible 48-hour analysis with a Bayesian model, delivered with a dashboard, demo video and slides, all in Quarto.</span><span class="ptags"><span class="tag tag-green">Bayesian modelling</span> <span class="tag tag-green">EDA</span> <span class="tag tag-purple">Hackathon</span></span>
-</summary>
-<p>A 48-hour <a href="https://ww2.amstat.org/education/datafest/" target="_blank">American Statistical Association DataFest</a> project with a team of 3. We built a fully reproducible analysis with extensive EDA and a Bayesian model, and delivered a dashboard, demo video and presentation slides, all made with Quarto.</p>
-<a href="https://hlan22.github.io/asa_datafest_2025/#/title-slide" target="_blank">Presentation</a> · <a href="https://github.com/hlan22/asa_datafest_2025" target="_blank">Repository</a>
-</details>
-<details class="project card-green" id="capstone">
-<summary>
-<span class="ptitle">Statistical Research Consulting (Capstone)</span><span class="pitch">Real client work in medical research: analyzed glaucoma surgery outcomes in R, presented at a poster session and to the client.</span><span class="ptags"><span class="tag tag-green">Statistics</span> <span class="tag tag-green">R</span> <span class="tag tag-green">Consulting</span></span>
-</summary>
-<p>Real consulting work for a client in medical research, analyzing changes after glaucoma eye surgery (STAT 450).</p>
+<div class="pbody">
+<p><span class="plabel">Overview</span></p>
+<p>MindTheAI is a Chrome extension built at the CMD-F 2026 hackathon to help people use AI tools more thoughtfully and more safely.</p>
+<p><span class="plabel">What it does</span></p>
 <ul>
-<li>Presented regularly to Professor Rodolfo Lourenzutti to keep the work reliable.</li>
-<li>Met with the client, presented findings at a poster session, and gave technical oral presentations.</li>
-<li>Produced written reports, a code repository and visualizations in R and GitHub.</li>
-<li>Learned a lot about study design, model selection and communicating statistics.</li>
+<li>Password protection, so sensitive details stay out of AI prompts</li>
+<li>Removes personal data and prompt filler before a prompt is sent</li>
+<li>Flags unreliable sources</li>
+<li>Usage reminders that nudge users to rethink unnecessary prompts</li>
+<li>Helps users understand the impacts of AI usage</li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="../outputs/microshunt_poster_board.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Our final poster board"><img src="../outputs/microshunt_poster_board.png" class="img-fluid figure-img" alt="Our final poster board"></a></p>
-<figcaption>Our final poster board</figcaption>
-</figure>
+<p><span class="plabel">Result</span></p>
+<p>Won the <strong>1Password sponsor prize</strong> for the best integration of security practices into a coding project. Winners received $100 and 1Password subscriptions.</p>
+<!-- ADD (optional) team size and my role: e.g. "A team of 4. I built the ..." -->
+<!-- ADD (optional) tech stack: the languages and APIs used for the extension -->
+<!-- ADD (optional) screenshots: put them in a gallery block, copy the format from another project -->
+<p><a href="https://devpost.com/software/mindtheai" target="_blank">Devpost</a> · <a href="https://github.com/votqanh/MindTheAI" target="_blank">Repository</a></p>
 </div>
 </details>
-<details class="project card-blue" id="reproducible">
+<details class="project p-purple" id="cmdf">
 <summary>
-<span class="ptitle">Reproducible Software and CI/CD (DSCI 310)</span><span class="pitch">An R package plus an automated analysis pipeline using Docker, GNU Make and GitHub Actions, with tests and documentation.</span><span class="ptags"><span class="tag tag-blue">R package</span> <span class="tag tag-blue">Docker</span> <span class="tag tag-blue">GitHub Actions</span></span>
+<span class="psummary"><span class="ptitle">The Daily Grind (CMD-F 2025)</span><span class="pitch">Built a coffee-chat conversation starter in 24 hours that won the Social track and placed 3rd overall among 50+ projects.</span><span class="pmeta"><span class="pcat">Hackathon</span> · Team project · Hackathon · March 2025</span></span><span class="ptoggle"></span>
 </summary>
-<p>A group project to build a data analysis and a package that are fully reproducible:</p>
+<div class="pbody">
+<div class="gallery">
+<div class="gallery-track">
+<figure class="figure">
+<img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/317/679/datas/gallery.jpg" alt="The popup where users add details to get conversation topics" class="figure-img">
+<figcaption>
+The popup where users add details to get conversation topics
+</figcaption>
+</figure>
+</div>
+<button class="g-prev" aria-label="Previous image">
+‹
+</button>
+<button class="g-next" aria-label="Next image">
+›
+</button>
+</div>
+<p><span class="plabel">Overview</span></p>
+<p>A 24-hour hackathon with 200+ participants and 50+ projects. Our coffee-chat conversation starter helps people break the ice: users add a few details in a popup and get useful conversation topics.</p>
+<p><span class="plabel">Result</span></p>
+<p>Winner of the <strong>Social track</strong> and <strong>3rd place overall</strong>. After presenting to 7 judges, we were invited to present to the whole hackathon community of 250+ people. Winners received $200 and had the project featured on the cmd-f website.</p>
+<!-- ADD (optional) What we built: how the popup works, the tech stack, how topics are generated -->
+<!-- ADD (optional) My role: front end, back end, design or the pitch -->
+<p><a href="https://devpost.com/software/the-daily-grind" target="_blank">See it on Devpost</a></p>
+</div>
+</details>
+<details class="project p-green" id="datafest">
+<summary>
+<span class="psummary"><span class="ptitle">DataFest Statistical Analysis (ASA 2025)</span><span class="pitch">A fully reproducible 48-hour analysis with a Bayesian model, delivered with a dashboard, demo video and slides, all built in Quarto.</span><span class="pmeta"><span class="pcat">Statistics</span> · Bayesian modelling · EDA · Quarto · Hackathon</span></span><span class="ptoggle"></span>
+</summary>
+<div class="pbody">
+<p><span class="plabel">Overview</span></p>
+<p>A 48-hour <a href="https://ww2.amstat.org/education/datafest/" target="_blank">American Statistical Association DataFest</a> competition, completed with a team of 3.</p>
+<p><span class="plabel">Approach</span></p>
+<p>Extensive exploratory data analysis followed by a Bayesian model. Everything was built in Quarto so the full analysis can be reproduced from start to finish.</p>
+<p><span class="plabel">Deliverables</span></p>
+<p>A data dashboard, a demonstration video and presentation slides.</p>
+<!-- ADD (optional) Result: the main finding in one sentence a non-statistician would understand -->
+<!-- ADD (optional) What I learned: what you would do differently with more time -->
+<p><a href="https://hlan22.github.io/asa_datafest_2025/#/title-slide" target="_blank">Presentation</a> · <a href="https://github.com/hlan22/asa_datafest_2025" target="_blank">Repository</a></p>
+</div>
+</details>
+<details class="project p-green" id="capstone">
+<summary>
+<span class="psummary"><span class="ptitle">Statistical Research Consulting (Capstone)</span><span class="pitch">Real client work in medical research: analyzed changes after glaucoma surgery in R and presented the findings to the client and at a poster session.</span><span class="pmeta"><span class="pcat">Statistics</span> · R · Study design · Model selection · Consulting</span></span><span class="ptoggle"></span>
+</summary>
+<div class="pbody">
+<div class="gallery">
+<div class="gallery-track">
+<figure class="figure">
+<img src="../outputs/microshunt_poster_board.png" alt="Our final poster board" class="figure-img">
+<figcaption>
+Our final poster board
+</figcaption>
+</figure>
+</div>
+<button class="g-prev" aria-label="Previous image">
+‹
+</button>
+<button class="g-next" aria-label="Next image">
+›
+</button>
+</div>
+<p><span class="plabel">Overview</span></p>
+<p>Consulting work for a client in medical research, analyzing changes after glaucoma eye surgery (STAT 450).</p>
+<p><span class="plabel">Process</span></p>
+<ul>
+<li>Presented regularly to Professor Rodolfo Lourenzutti to keep the work high-quality and reliable</li>
+<li>Met with the client and gave technical oral presentations to the class</li>
+<li>Presented the findings at a poster session</li>
+<li>Produced written reports, a code repository and visualizations in R and GitHub</li>
+</ul>
+<p><span class="plabel">What I learned</span></p>
+<p>Study design, model selection and how to communicate statistics clearly to a non-statistical audience.</p>
+<!-- ADD (optional) Methods: the models or tests you used and why -->
+<!-- ADD (optional) Result: the key finding, with no identifying or confidential details -->
+</div>
+</details>
+<details class="project p-blue" id="reproducible">
+<summary>
+<span class="psummary"><span class="ptitle">Reproducible Software and CI/CD (DSCI 310)</span><span class="pitch">An R package and an automated analysis pipeline built with Docker, GNU Make and GitHub Actions, with tests and documentation.</span><span class="pmeta"><span class="pcat">Engineering</span> · R · Docker · GNU Make · GitHub Actions · Quarto</span></span><span class="ptoggle"></span>
+</summary>
+<div class="pbody">
+<div class="gallery">
+<div class="gallery-track">
+<figure class="figure">
+<img src="../outputs/drugage_package_image.png" alt="Preview of the package repository" class="figure-img">
+<figcaption>
+Preview of the package repository
+</figcaption>
+</figure>
+</div>
+<button class="g-prev" aria-label="Previous image">
+‹
+</button>
+<button class="g-next" aria-label="Next image">
+›
+</button>
+</div>
+<p><span class="plabel">Overview</span></p>
+<p>A group project to build a data analysis and a software package that anyone can reproduce.</p>
+<p><span class="plabel">What we built</span></p>
 <ul>
 <li>A documented, modular R package and scripts</li>
 <li>An analysis pipeline automated with GNU Make</li>
@@ -243,73 +322,145 @@ background: #0b2a5b;
 <li>A containerized environment shared through Docker</li>
 <li>Automated tests, documentation and deployment</li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../outputs/drugage_package_image.png" class="img-fluid figure-img"></p>
-<figcaption>Preview of the package repository</figcaption>
-</figure>
+<!-- ADD (optional) My role: which pieces you owned, such as the tests, the Dockerfile or the pipeline -->
+<!-- ADD (optional) Result: for example "a collaborator can reproduce the report with one command" -->
+<p><a href="https://github.com/DSCI-310-2025/pkg.drugage" target="_blank">Package repository</a> · <a href="https://github.com/DSCI-310-2025/dsci-310-group-7-data-dudes" target="_blank">Analysis repository</a></p>
 </div>
-<a href="https://github.com/DSCI-310-2025/pkg.drugage" target="_blank">Package repository</a> · <a href="https://github.com/DSCI-310-2025/dsci-310-group-7-data-dudes" target="_blank">Analysis repository</a>
 </details>
-<details class="project card-blue" id="portfolio">
+<details class="project p-blue" id="portfolio">
 <summary>
-<span class="ptitle">This Portfolio Website</span><span class="pitch">A multi-page site built with Quarto and custom CSS, deployed on GitHub Pages, with a responsive layout that works on phones.</span><span class="ptags"><span class="tag tag-blue">Quarto</span> <span class="tag tag-blue">CSS</span> <span class="tag tag-blue">GitHub Pages</span></span>
+<span class="psummary"><span class="ptitle">This Portfolio Website</span><span class="pitch">A multi-page site built from scratch with Quarto, custom CSS and a little JavaScript, hosted on GitHub Pages and designed to work on phones.</span><span class="pmeta"><span class="pcat">Engineering</span> · Quarto · CSS · JavaScript · GitHub Pages</span></span><span class="ptoggle"></span>
 </summary>
-<p>I designed and built this site myself. It is written in Quarto and hosted on GitHub Pages.</p>
+<div class="pbody">
+<p><span class="plabel">Overview</span></p>
+<p>I designed and built this site myself.</p>
+<p><span class="plabel">Details</span></p>
 <ul>
-<li>A custom stylesheet with a consistent palette and color-coded project tracks</li>
-<li>A responsive layout, including a hero section, card grids and expandable project sections</li>
-<li>Separate pages for projects, certifications and courses, with image lightboxes</li>
+<li>A custom stylesheet and layout, including a hero section, card grids and color-coded categories</li>
+<li>Expandable project and award cards, plus image galleries you can flip through</li>
+<li>Separate pages for projects, certifications, courses and awards</li>
 </ul>
-<a href="https://github.com/hlan22" target="_blank">Repository</a>
-</details>
-<details class="project card-purple" id="research">
-<summary>
-<span class="ptitle">Weather Extremes Research</span><span class="pitch">Summer research assistantship (URSA NSERC) using time series analysis in Python and R to find patterns in Canadian floods, droughts and wildfires.</span><span class="ptags"><span class="tag tag-purple">Research</span> <span class="tag tag-purple">Time series</span> <span class="tag tag-purple">Python</span></span>
-</summary>
-Research assistant at UBC in summer 2024 under a URSA NSERC scholarship, working with Professors Harry Joe and Natalia Nolde. I explored Canadian weather data on floods, droughts and wildfires to find patterns, using EDA and time series analysis, and presented my work weekly. I’m cleaning up the code to publish it in a public repository.
-</details>
-<details class="project card-green" id="dashboard">
-<summary>
-<span class="ptitle">Library Attendance Dashboard (DSCI 320)</span><span class="pitch">An interactive Python dashboard on San Francisco library attendance, built with two teammates to answer four research questions.</span><span class="ptags"><span class="tag tag-green">Python</span> <span class="tag tag-green">Data visualization</span></span>
-</summary>
-<p>With two teammates, I built an interactive dashboard on library attendance in the San Francisco area. The course required inventive visualizations to answer 4 questions, and the dashboard has toggles that the image doesn’t show.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="../outputs/dashboard_dsci320.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Custom dashboard for DSCI 320: Data Visualization"><img src="../outputs/dashboard_dsci320.png" class="img-fluid figure-img" alt="Custom dashboard for DSCI 320: Data Visualization"></a></p>
-<figcaption>Custom dashboard for DSCI 320: Data Visualization</figcaption>
-</figure>
+<!-- ADD (optional) Design decisions: what you changed after testing on a phone, and why -->
+<p><a href="https://github.com/hlan22" target="_blank">Repository</a></p>
 </div>
 </details>
-<details class="project card-blue" id="word">
+<details class="project p-purple" id="research">
 <summary>
-<span class="ptitle">wordplayr, an R package</span><span class="pitch">A documented R package with a vignette and a pkgdown website that finds patterns in word lists.</span><span class="ptags"><span class="tag tag-blue">R package</span> <span class="tag tag-blue">Roxygen</span> <span class="tag tag-blue">pkgdown</span></span>
+<span class="psummary"><span class="ptitle">Weather Extremes Research</span><span class="pitch">Summer research assistantship (NSERC USRA) using time series analysis in Python and R to find patterns in Canadian floods, droughts and wildfires.</span><span class="pmeta"><span class="pcat">Research</span> · Python · R · Time series · EDA · Quarto</span></span><span class="ptoggle"></span>
 </summary>
-<p><code>wordplayr</code> finds patterns in a list of words: average word length, common starting letters, frequent vowel sounds and more. It has a README with install instructions, a vignette, a package website and Roxygen documentation. I built it to learn why I like my favorite words (they most often start with “C”).</p>
-<div class="quarto-figure quarto-figure-center">
+<div class="pbody">
+<p><span class="plabel">Overview</span></p>
+<p>Research assistant at UBC in summer 2024, funded by an NSERC Undergraduate Student Research Award and supervised by Professors Harry Joe and Natalia Nolde.</p>
+<p><span class="plabel">What I did</span></p>
+<p>I explored Canadian weather data on floods, droughts and wildfires, using exploratory analysis and time series methods to look for patterns. I analyzed research papers, presented my work weekly and used Quarto for presentations.</p>
+<p><span class="plabel">Status</span></p>
+<p>I’m cleaning up the code to publish it in a public repository.</p>
+<!-- ADD (optional) Results: one pattern or finding, and a chart if you can share one -->
+</div>
+</details>
+<details class="project p-green" id="dashboard">
+<summary>
+<span class="psummary"><span class="ptitle">Library Attendance Dashboard (DSCI 320)</span><span class="pitch">An interactive Python dashboard on San Francisco library attendance, built with two teammates to answer four research questions.</span><span class="pmeta"><span class="pcat">Analytics</span> · Python · Data visualization · Interactive dashboards</span></span><span class="ptoggle"></span>
+</summary>
+<div class="pbody">
+<div class="gallery">
+<div class="gallery-track">
 <figure class="figure">
-<p><img src="../outputs/wordplay_website.png" class="img-fluid figure-img"></p>
-<figcaption>Preview of the package website</figcaption>
+<img src="../outputs/dashboard_dsci320.png" alt="Custom dashboard for DSCI 320: Data Visualization" class="figure-img">
+<figcaption>
+Custom dashboard for DSCI 320: Data Visualization
+</figcaption>
 </figure>
 </div>
-<a href="https://github.com/hlan22/wordplay" target="_blank">Repository</a> · <a href="https://hlan22.github.io/wordplay/" target="_blank">Website</a>
+<button class="g-prev" aria-label="Previous image">
+‹
+</button>
+<button class="g-next" aria-label="Next image">
+›
+</button>
+</div>
+<p><span class="plabel">Overview</span></p>
+<p>With two teammates, I built a fully interactive dashboard exploring attendance at libraries in the San Francisco area.</p>
+<p><span class="plabel">The brief</span></p>
+<p>The course asked for inventive visualizations that answer 4 questions. The dashboard includes toggle options that the screenshot doesn’t show.</p>
+<!-- ADD (optional) The four questions and the main insight from each -->
+<!-- ADD (optional) Result: one design decision you are proud of -->
+</div>
 </details>
-<details class="project card-blue" id="easy">
+<details class="project p-blue" id="word">
 <summary>
-<span class="ptitle">easyEDA, a Python package (in progress)</span><span class="pitch">A Python package that automates exploratory data analysis by choosing the right plot for each column’s data type.</span><span class="ptags"><span class="tag tag-blue">Python package</span> <span class="tag tag-blue">EDA</span></span>
+<span class="psummary"><span class="ptitle">wordplayr, an R package</span><span class="pitch">A documented R package with a vignette and a pkgdown website that finds patterns in word lists.</span><span class="pmeta"><span class="pcat">Engineering</span> · R · Roxygen · pkgdown · Vignettes</span></span><span class="ptoggle"></span>
 </summary>
-<p>A package that automates EDA for any dataset by picking suitable plots for each column’s data type. It supports quick exploration and presentation-ready, interactive visuals, and I plan to add an R version.</p>
-<a href="https://github.com/hlan22/easy_eda" target="_blank">Repository</a>
+<div class="pbody">
+<div class="gallery">
+<div class="gallery-track">
+<figure class="figure">
+<img src="../outputs/wordplay_website.png" alt="Preview of the package website" class="figure-img">
+<figcaption>
+Preview of the package website
+</figcaption>
+</figure>
+</div>
+<button class="g-prev" aria-label="Previous image">
+‹
+</button>
+<button class="g-next" aria-label="Next image">
+›
+</button>
+</div>
+<p><span class="plabel">Overview</span></p>
+<p><code>wordplayr</code> finds patterns in a list of words: average word length, common starting letters, frequent vowel sounds and more.</p>
+<p><span class="plabel">Why I built it</span></p>
+<p>I’ve kept a list of my favorite words for years and wanted to understand why I like them. (They most often start with “C”.)</p>
+<p><span class="plabel">What’s included</span></p>
+<p>A README with install instructions, a vignette, a package website and Roxygen documentation.</p>
+<p><a href="https://github.com/hlan22/wordplay" target="_blank">Repository</a> · <a href="https://hlan22.github.io/wordplay/" target="_blank">Website</a></p>
+</div>
 </details>
+<details class="project p-blue" id="easy">
+<summary>
+<span class="psummary"><span class="ptitle">easyEDA, a Python package (in progress)</span><span class="pitch">A Python package that automates exploratory data analysis by choosing the right plot for each column’s data type.</span><span class="pmeta"><span class="pcat">Engineering</span> · Python · Package development · EDA</span></span><span class="ptoggle"></span>
+</summary>
+<div class="pbody">
+<p><span class="plabel">Overview</span></p>
+<p>Functions that create suitable plots for every column of a dataset, based on its data type.</p>
+<p><span class="plabel">Goals</span></p>
+<p>Quick, relaxed exploration of a new dataset, with presentation-ready interactive visuals. I plan to add an R version.</p>
+<!-- ADD (optional) Status: what works today and what's next -->
+<p><a href="https://github.com/hlan22/easy_eda" target="_blank">Repository</a></p>
+</div>
+</details>
+<!-- NEW PROJECT: uncomment and fill in once you have the details 
+(a blue card is for engineering, green for analytics, purple for hackathons/research)
+
+<details class="project p-blue" id="flashapp">
+<summary><span class="psummary"><span class="ptitle">FlashApp</span><span class="pitch">ONE OR TWO LINES THAT SELL IT</span><span class="pmeta"><span class="pcat">Engineering</span> · TOOLS · DATE</span></span><span class="ptoggle"></span></summary>
+
+::: {.pbody}
+[Overview]{.plabel}
+
+What it is and why you built it.
+
+[Repository](https://github.com/hlan22){target="_blank"}
+:::
+
+</details>
+-->
 <script>
-// Open the project that a link like projects.html#cmdf points to
 function openFromHash() {
-  var id = location.hash.slice(1);
-  var el = id && document.getElementById(id);
+  var id = location.hash.slice(1), el = id && document.getElementById(id);
   if (el && el.tagName === "DETAILS") { el.open = true; el.scrollIntoView(); }
 }
 window.addEventListener("hashchange", openFromHash);
-document.addEventListener("DOMContentLoaded", openFromHash);
+document.addEventListener("DOMContentLoaded", function () {
+  openFromHash();
+  document.querySelectorAll(".gallery").forEach(function (g) {
+    var t = g.querySelector(".gallery-track"), p = g.querySelector(".g-prev"), n = g.querySelector(".g-next");
+    if (t.children.length < 2) { p.style.display = n.style.display = "none"; return; }
+    p.onclick = function () { t.scrollBy({ left: -t.clientWidth, behavior: "smooth" }); };
+    n.onclick = function () { t.scrollBy({ left: t.clientWidth, behavior: "smooth" }); };
+  });
+});
 </script>
 
 
@@ -806,38 +957,6 @@ document.addEventListener("DOMContentLoaded", openFromHash);
   </div>
 </footer>
 <script data-goatcounter="https://heidilantz.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 
