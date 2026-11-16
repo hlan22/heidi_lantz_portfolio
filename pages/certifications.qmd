@@ -9,42 +9,55 @@ subtitle: "All valid, earned in 2025 and 2026"
 
 ::: {.cert .card-blue}
 ### PL-300: Power BI Data Analyst Associate
-![Microsoft Certified: Power BI Data Analyst Associate](../outputs/pl_300_cert.png){.lightbox}
+![Expiry: April 2027](../outputs/pl_300_cert.png){.lightbox}
+<!-- Preparing and modeling data, writing DAX, and building secure, interactive Power BI reports and dashboards  - Achieved: April 2025 and renewed -->
 :::
 
 ::: {.cert .card-blue}
 ### DP-600: Fabric Analytics Engineer Associate
-![Microsoft Certified: Fabric Analytics Engineer Associate](../outputs/dp_600_cert.png){.lightbox}
+![Expiry: March 2027](../outputs/dp_600_cert.png){.lightbox}
+<!-- Designing enterprise-scale analytics solutions in Fabric, from semantic models and lakehouse/warehouse design to performance optimization and deployment  - Achieved: March 2025 and renewed -->
 :::
 
 ::: {.cert .card-blue}
 ### DP-700: Fabric Data Engineer Associate
-![Microsoft Certified: Fabric Data Engineer Associate](../outputs/dp_700_cert.png){.lightbox}
+![Expiry: November 2027](../outputs/dp_700_cert.png){.lightbox}
+<!-- Designing and building data ingestion, transformation, and orchestration pipelines in Microsoft Fabric using lakehouses, warehouses, PySpark, SQL, and Dataflows  - Achieved: November 2025 and renewed -->
 :::
 
 ::: {.cert .card-green}
 ### Snowflake SnowPro Core
-![Credential ID: S127396-251223-COF](../outputs/snowflake_logo.png){.lightbox}
+![Credential ID: S127396-251223-COF, Expiry: December 2027](../outputs/snowflake_logo.png){.lightbox}
+<!-- Snowflake platform fundamentals including architecture, data loading and transformation, performance tuning, and access control and security  -->
+<!-- Achieved: December 2025 -->
 :::
 
 ::: {.cert .card-blue}
 ### SC-401: Information Security Administrator Associate
-![Microsoft Certified: Information Security Administrator Associate](../outputs/sc_401_cert.png){.lightbox}
+![Expiry: June 2027](../outputs/sc_401_cert.png){.lightbox}
+<!-- Implementing data protection, information governance, and compliance controls such as sensitivity labels, DLP, and insider risk management across Microsoft 365 and cloud environments   -->
+<!-- Achieved: June 2026 -->
 :::
 
 ::: {.cert .card-blue}
 ### DP-900: Azure Data Fundamentals
-![Microsoft Certified: Azure Data Fundamentals](../outputs/dp_900_cert.png){.lightbox}
+![No Expiry](../outputs/dp_900_cert.png){.lightbox}
+<!-- Core data concepts and Azure data services, covering relational and non-relational data, storage, and analytics workloads  -->
+<!-- Achieved: Oct 2025 -->
 :::
 
 ::: {.cert .card-blue}
 ### SC-900: Security, Compliance, and Identity Fundamentals
-![Microsoft Certified: Security, Compliance, and Identity Fundamentals](../outputs/sc_900_cert.png){.lightbox}
+![No Expiry](../outputs/sc_900_cert.png){.lightbox}
+<!-- Foundations of security, compliance, and identity, including Microsoft Entra ID, access management, and threat protection  -->
+<!-- Achieved May 2026 -->
 :::
 
 ::: {.cert .card-blue}
 ### AZ-900: Azure Fundamentals
-![Microsoft Certified: Azure Fundamentals](../outputs/az_900_cert.png){.lightbox}
+![No Expiry](../outputs/az_900_cert.png){.lightbox}
+<!-- Covers general cloud concepts, core Azure services, and Azure management and governance  -->
+<!-- Achieved: Oct 2025 -->
 :::
 
 :::
@@ -60,12 +73,12 @@ subtitle: "All valid, earned in 2025 and 2026"
 
 ::: {.cert .card-purple}
 ### Long View Systems CDP-101
-![Consultant Development Program 101](../outputs/cdp_101_cert.png){.lightbox}
+![LVS Certified: Consultant Development Program 101](../outputs/cdp_101_cert.png){.lightbox}
 :::
 
 ::: {.cert .card-purple}
 ### Long View Systems CDP-201
-![Consultant Development Program 201](../outputs/cdp_201_cert.png){.lightbox}
+![LVS Certified: Consultant Development Program 201](../outputs/cdp_201_cert.png){.lightbox}
 :::
 
 ::: {.cert .card-purple}
