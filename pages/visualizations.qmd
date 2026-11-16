@@ -1,5 +1,0 @@
----
-title: "Data Visualizations"
----
-
-This page will show different visualizations I have created and am proud of.
