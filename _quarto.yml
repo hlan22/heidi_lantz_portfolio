@@ -12,6 +12,8 @@ website:
         text: "Projects"
       - href: pages/certifications.qmd
         text: "Certifications"
+      - href: pages/awards.qmd
+        text: Awards
       - href: pages/about.qmd
         text: "About"
       # - text: Credentials  # Note: to be implemented soon...

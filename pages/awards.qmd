@@ -1,0 +1,118 @@
+---
+title: "Awards"
+subtitle: "Hackathon prizes, scholarships, academic honours and workplace recognition"
+---
+
+<!-- OPTIONAL PHOTO: inside any card's abody, add a line like this (the comment markers must be removed):
+![Caption](../outputs/your_photo.png){.lightbox}
+-->
+
+::: {.award-grid}
+
+<details class="award aw-purple">
+<summary><span class="atitle">Data Team Employee Award</span><span class="adate">September 2026 · Long View Systems · Work recognition</span><span class="asub">Recognized for making our Databricks apps reusable across client projects.</span><span class="amore"></span></summary>
+
+::: {.abody}
+- Recognized at our monthly all-hands meeting for the Data team.
+- Recognized for my work building our Databricks apps approach into the company's "accelerator program", which lets the team adapt and deploy Databricks apps for new clients faster
+
+:::
+
+</details>
+
+<details class="award aw-purple">
+<summary><span class="atitle">CMD-F 2026 · 1Password Prize</span><span class="adate">March 2026 · Hackathon</span><span class="asub">Won the sponsor prize for the best integration of security practices into a coding project.</span><span class="amore"></span></summary>
+
+::: {.abody}
+- Winner of the **1Password sponsor prize** for the best integration of security practices into a coding project
+- Our project, MindTheAI, is a Chrome extension that guides responsible AI use: it flags unreliable sources, removes personal data and prompt filler, and nudges users to rethink unnecessary prompts
+- Winners received $100 and 1Password subscriptions
+- See the project: [MindTheAI on Devpost](https://devpost.com/software/mindtheai){target="_blank"} or read more in [Projects](projects.qmd#mindtheai)
+:::
+
+</details>
+
+<details class="award aw-purple">
+<summary><span class="atitle">CMD-F 2025 · Finalist</span><span class="adate">March 2025 · Hackathon</span><span class="asub">Won the Social category and placed third overall out of 200+ participants and 50+ projects.</span><span class="amore"></span></summary>
+
+::: {.abody}
+- Winner of the **Social** category and **third place overall** out of 200+ participants and 50+ projects
+- Winners received $200 and had their project displayed on the cmd-f website
+- See the project: [The Daily Grind on Devpost](https://devpost.com/software/the-daily-grind){target="_blank"} or read more in [Projects](projects.qmd#the-daily-grind)
+:::
+
+</details>
+
+<details class="award aw-green">
+<summary><span class="atitle">UBC GoGlobal Scholarship</span><span class="adate">September 2024 · Scholarship</span><span class="asub">Funded my semester studying at the University of Oslo in Norway.</span><span class="amore"></span></summary>
+
+::: {.abody}
+- Awarded to help high-achieving students study abroad
+- Granted to fund my exchange semester at the University of Oslo (UiO) in Norway
+:::
+
+</details>
+
+<details class="award aw-blue">
+<summary><span class="atitle">NSERC Student Research Award</span><span class="adate">May 2024 · Research award</span><span class="asub">A $6,000 award for statistical research at UBC.</span><span class="amore"></span></summary>
+
+::: {.abody}
+- Awarded $6,000 from the Natural Sciences and Engineering Research Council of Canada (NSERC) Undergraduate Student Research Awards (USRA) for statistical research at UBC
+- The award recognizes candidates with academic excellence and research potential
+- See the [weather extremes research](projects.qmd#research)
+:::
+
+</details>
+
+<details class="award aw-purple">
+<summary><span class="atitle">Tour Guide of the Month</span><span class="adate">July 2023 · Work recognition</span><span class="asub">Recognized at Space Centre Houston for entertaining, creative and engaging NASA tours.</span><span class="amore"></span></summary>
+
+::: {.abody}
+- Named **Tour Guide of the Month** at Space Centre Houston for outstanding performance and dedication
+- My managers described me as an entertaining and informative tour guide who goes above and beyond to give visitors a great experience
+- Known for creative tours (and a few well-placed puns) designed to engage visitors of all ages
+:::
+
+</details>
+
+<details class="award aw-blue">
+<summary><span class="atitle">Dean's Honour List</span><span class="adate">April 2024 · Academic</span><span class="asub">Earned an 80%+ average in a semester of coursework at the University of British Columbia.</span><span class="amore"></span></summary>
+
+::: {.abody}
+- Issued by the University of British Columbia
+- Achieved an average of 80% or higher in a semester of coursework
+:::
+
+</details>
+
+<details class="award aw-purple">
+<summary><span class="atitle">Employee Award</span><span class="adate">March 2022 · Work recognition</span><span class="asub">Recognized at Save-On-Foods for dependability and for pitching in wherever the team needed help.</span><span class="amore"></span></summary>
+
+::: {.abody}
+- Recognized by management at Save-On-Foods for being a great and reliable employee, and received multiple gift cards
+- Known for being flexible and taking on extra responsibilities, working across several departments of the store wherever help was needed
+- Helped keep the team running smoothly and gave customers a positive shopping experience
+:::
+
+</details>
+
+<details class="award aw-green">
+<summary><span class="atitle">Alexander Rutherford Scholarship</span><span class="adate">September 2020 · Scholarship</span><span class="asub">Awarded to high-achieving students in Alberta to help with university costs.</span><span class="amore"></span></summary>
+
+::: {.abody}
+- Awarded to help with university costs for high-achieving students in Alberta
+- Received maximum funding in recognition of high academic achievement throughout high school
+:::
+
+</details>
+
+<details class="award aw-blue">
+<summary><span class="atitle">Honors with Distinction</span><span class="adate">June 2020 · Academic</span><span class="asub">A 90%+ average across every subject in all of high school.</span><span class="amore"></span></summary>
+
+::: {.abody}
+- Achieved a 90%+ average throughout the entirety of high school in all subjects, earning the **Honors with Distinction** award
+:::
+
+</details>
+
+:::
