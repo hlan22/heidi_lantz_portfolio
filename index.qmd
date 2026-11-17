@@ -17,7 +17,8 @@ I help organizations move their data onto modern platforms and turn it into repo
 :::
 
 ::: {.hero-photo}
-![Visiting the Gol Stave Church during my semester at UiO!](outputs/norway_image.jpg){.lightbox}
+<!-- ![Visiting the Gol Stave Church during my semester at UiO!](outputs/norway_image.jpg){.lightbox} -->
+![Seeing the Very Large Array (VLA)! Taken on a road trip through New Mexico, USA.](outputs/new_mexico_photo.jpg){.lightbox}
 :::
 
 :::
