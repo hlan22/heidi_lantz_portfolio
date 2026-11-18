@@ -7,6 +7,20 @@ subtitle: "All valid, earned in 2025 and 2026"
 
 ::: {.cert-grid}
 
+<!-- ::: {.cert .card-blue}
+### Databricks Data Engineer Associate
+<!-- ![Expiry: December 2028](../outputs/dbx_engineer_associate_cert.png){.lightbox} -->
+<!-- How to build, orchestrate, optimize, and govern ETL/ELT data pipelines using SQL, Python/PySpark, Delta Lake, Lakeflow Jobs, and Unity Catalog on the Databricks platform. -->
+<!-- Achieved: December 2026 :::-->
+
+::: {.cert .card-blue}
+### Databricks Data Analyst Associate
+![Expiry: November 2028](../outputs/databricks_logo.png){.lightbox}
+<!-- ![Expiry: November 2028](../outputs/dbx_analyst_associate_cert.png){.lightbox} -->
+<!-- How to ingest, govern, query, optimize, and visualize data using SQL, Unity Catalog, and AI/BI tools on the Databricks platform. -->
+<!-- Achieved: November 2026 -->
+:::
+
 ::: {.cert .card-blue}
 ### PL-300: Power BI Data Analyst Associate
 ![Expiry: April 2027](../outputs/pl_300_cert.png){.lightbox}
