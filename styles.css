@@ -81,8 +81,7 @@ details summary { cursor: pointer; font-weight: 600; color: var(--navy); font-si
 /* Expandable projects: outlined, tinted cards with a solid offset shadow. Colors come from --accent. */
 :root { --blue-rgb: 29, 95, 209; --green-rgb: 14, 122, 95; --purple-rgb: 91, 63, 176; --ptint: .14; --atint: .20; }
 details.project { --accent: var(--blue); --rgb: var(--blue-rgb); margin: 0 0 1.4rem; padding: 0;
-  border: 1.5px solid var(--accent); border-radius: 12px; background: rgba(var(--rgb), var(--ptint));
-  box-shadow: 4px 4px 0 rgba(var(--rgb), .35); }
+  border: 1.5px solid var(--accent); border-radius: 12px; background: rgba(var(--rgb), var(--ptint)); }
 details.p-green { --accent: var(--green); --rgb: var(--green-rgb); }
 details.p-purple { --accent: var(--purple); --rgb: var(--purple-rgb); }
 details.project summary { list-style: none; display: flex; justify-content: space-between; align-items: flex-start;
@@ -90,11 +89,14 @@ details.project summary { list-style: none; display: flex; justify-content: spac
 details.project summary::-webkit-details-marker { display: none; }
 details.project summary:hover { background: rgba(255, 255, 255, .45); }
 .psummary { flex: 1; min-width: 0; }
-.ptitle { display: block; font-family: inherit; font-weight: 600; font-size: 1.25rem; line-height: 1.3; color: var(--navy); }
+.pright { flex: none; display: flex; flex-direction: column; align-items: flex-end; gap: .5rem; }
+.pthumb { width: 150px; height: 96px; object-fit: cover; object-position: top; border-radius: 8px;
+  border: 1px solid rgba(var(--rgb), .45); background: #fff; }
+.ptitle { display: block; font-family: inherit; font-weight: 600; font-size: 1.5rem; line-height: 1.25; color: var(--navy); }
 .pitch { display: block; margin: .3rem 0 .4rem; color: #2f3a4d; font-size: 1rem; line-height: 1.45; }
 .pmeta { display: block; font-size: .88rem; color: #4a5568; }
 .pcat { font-weight: 700; color: var(--accent); }
-.ptoggle { flex: none; padding-top: .15rem; font-size: .9rem; font-weight: 600; line-height: 1.4; white-space: nowrap; color: var(--accent); }
+.ptoggle { font-size: .9rem; font-weight: 600; line-height: 1.4; white-space: nowrap; color: #2f3a4d; }
 .ptoggle::before { content: "Read more \25BE"; }
 details.project[open] .ptoggle::before { content: "Show less \25B4"; }
 details.project[open] summary { border-bottom: 1.5px solid rgba(var(--rgb), .35); border-radius: 12px 12px 0 0; }
@@ -137,4 +139,9 @@ details.award[open] .amore::before { content: "Hide details \25B4"; }
 @media (max-width: 991.98px) {
   .navbar-collapse { position: absolute; top: 100%; right: 0; min-width: 230px; padding: .5rem 1.2rem;
     background: var(--navy); border-radius: 0 0 10px 10px; box-shadow: 0 8px 20px rgba(0, 0, 0, .25); z-index: 1050; }
+}
+
+@media (max-width: 640px) {
+  .pthumb { width: 88px; height: 58px; }
+  .ptitle { font-size: 1.3rem; }
 }
